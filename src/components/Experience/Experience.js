@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { Tab } from "@headlessui/react";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -94,10 +95,10 @@ export default function Experience() {
                 key={category}
                 className={({ selected }) =>
                   classNames(
-                    "w-full py-0.5 text-sm font-medium leading-5 text-gray-500 border-l-2 sm:border-b-2 border-solid border-[#233554] h-10 px-4 hover:bg-[#112240] text-left font-mono relative dark:hover:bg-black dark:hover:text-white", "ring-white ring-opacity-60 focus:text-blue-500 dark:text-gray-900",
+                    "w-full py-0.5 text-sm font-medium leading-5 text-gray-500 border-l-2 sm:border-b-2 sm:border-l-0 border-solid border-[#233554] h-10 px-4 hover:bg-[#112240] text-left font-mono relative dark:hover:bg-black dark:hover:text-white", "ring-white ring-opacity-60 focus:text-blue-500 dark:text-gray-900",
                     selected
-                      ? 'text-white before:border-l-[3px] sm:before:border-b-[3px] before:border-solid before:border-purple-600 before:h-full before:absolute before:top-0 before:-left-0.5 before:w-1 sm:before:w-full before:z-10 '
-                      : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                      ? 'text-white before:border-l-[3px] sm:before:border-l-[0px] sm:before:border-b-[3px] before:border-solid before:border-purple-600 before:h-full before:absolute before:top-0 sm:before:top-[2px] before:-left-0.5 before:w-1 sm:before:w-full before:z-10 '
+                      : 'text-blue-100'
                   )
                 }
               >
@@ -136,6 +137,9 @@ export default function Experience() {
             ))}
           </Tab.Panels>
         </Tab.Group>
+      </div>
+      <div>
+        <Player />
       </div>
     </section>
   );

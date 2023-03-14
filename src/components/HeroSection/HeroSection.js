@@ -160,11 +160,11 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <section className="flex px-40 sm:px-5 items-center panel center justify-between">
+        <section className="flex px-40 sm:px-5 sm:flex-col items-center panel center justify-between">
           <div>
             <div>
               <FadeIn
-                vars={{ y: -200, duration: 2, ease: "power2.out", delay: 0.5 }}
+                vars={{ y: -100, duration: 1, ease: "power2.out", delay: 0.5 }}
               >
                 <h3 className="text-2xl sm:text-xl mb-3 text-purple-600">
                   Hi, my name is
@@ -234,12 +234,12 @@ export default function HeroSection() {
             </div>
           </div>
           <div>
-          {/* <Player
+          <Player
           autoplay
           loop
-          src="https://assets2.lottiefiles.com/packages/lf20_jjsrh4we.json"
+          src="https://assets9.lottiefiles.com/packages/lf20_kxaxahzd.json"
           style={{ height: "400px", width: "400px",}}
-        ></Player> */}
+        ></Player>
         </div>
         </section>
         <Player

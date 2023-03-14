@@ -30,7 +30,7 @@ const Circle = forwardRef(({ size, delay }, ref) => {
     };
   }, [delay]);
   
-  return <div className={`circle ${size} sm:hidden`} ref={el}></div>;
+  return <div className={`circle ${size} sm:hidden md:hidden`} ref={el}></div>;
 })
 export default function Navigation() {
   const circleRefs = useRef([]);
@@ -78,7 +78,7 @@ export default function Navigation() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-12 w-auto"
+                className="h-12 sm:h-8 w-auto"
                 src={currentTheme === "light" ? "/logo-dark.png" : "/logo-light.png"}
                 alt=""
               />
@@ -151,10 +151,10 @@ export default function Navigation() {
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                className="h-12 sm:h-8 w-auto"
+                src={currentTheme === "light" ? "/logo-dark.png" : "/logo-light.png"}
+                alt=""
+              />
               </a>
               <button
                 type="button"
@@ -166,22 +166,22 @@ export default function Navigation() {
               </button>
             </div>
             <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
+              <div>
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-black dark:text-black"
+                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-black dark:text-black text-center"
                     >
                       {item.name}
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
+                <div>
                   <a
                     href="#"
-                    className="text-sm font-semibold leading-6 text-white dark:text-black px-4 py-2 border border-gray-500 rounded-lg"
+                    className="text-sm font-semibold leading-6 text-white dark:text-black px-4 py-2 border border-gray-500 rounded-lg w-full text-center"
                   >
                     Resume
                   </a>
