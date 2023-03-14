@@ -172,7 +172,7 @@ export default function Navigation() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-black dark:text-black text-center"
+                      className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-[#495670] dark:text-black text-center"
                     >
                       {item.name}
                     </a>
