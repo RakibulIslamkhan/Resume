@@ -8,11 +8,11 @@ import React from "react";
 export default function Work() {
   return (
     <section id="work" className="px-40 sm:px-5 py-20">
-      <h2 className="flex items-center pb-10 text-3xl sm:text-xl font-bold after:relative after:block after:top-px after:w-72 sm:after:w-16 after:h-px after:bg-gray-500 after:ml-4 before:content-['03.'] before:font-serif before:text-3xl before:mr-2 before:font-mono before:text-purple-900 dark:text-gray-900 sm:before:text-xl">
-        Some Things I’ve Built
+      <h2 className="flex items-center pb-10 text-3xl sm:text-xl font-bold after:relative after:block after:top-px after:w-72 sm:after:w-12 after:h-px after:bg-gray-500 after:ml-4 before:content-['03.'] before:font-serif before:text-3xl before:mr-2 before:font-mono before:text-purple-900 dark:text-gray-900 sm:before:text-xl">
+        Some Things I&apos;ve Built
       </h2>
       <div className="container mx-auto mt-4 sm:px-3">
-        <div className="grid grid-cols-3 sm:grid-cols-1 -m-4 gap-4">
+        <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 -m-4 gap-4">
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
               <Image src="/three-sc.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
