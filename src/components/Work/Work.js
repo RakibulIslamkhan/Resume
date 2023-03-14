@@ -2,6 +2,7 @@ import {
   ArrowTopRightOnSquareIcon,
   FolderIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import React from "react";
 
 export default function Work() {
@@ -14,11 +15,7 @@ export default function Work() {
         <div className="grid grid-cols-3 sm:grid-cols-1 -m-4 gap-4">
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://i.ibb.co/RBqvzpj/three-sc.png"
-              />
+              <Image src="/three-sc.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
@@ -42,11 +39,7 @@ export default function Work() {
           </div>
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://i.ibb.co/wBqKXyc/one-sc.png"
-              />
+              <Image src="/one-sc.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
@@ -70,11 +63,7 @@ export default function Work() {
           </div>
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://i.ibb.co/SQWj4jN/two-sc.png"
-              />
+              <Image src="/two-sc.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
@@ -98,11 +87,7 @@ export default function Work() {
           </div>
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://i.ibb.co/bHkdrwH/five-sc.png"
-              />
+              <Image src="/five-sc.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
@@ -127,11 +112,7 @@ export default function Work() {
           </div>
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://i.ibb.co/whS0hXW/screencapture-popcorn-web-netlify-app-2023-02-27-22-40-17.png"
-              />
+              <Image src="/popcorn.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
@@ -158,11 +139,7 @@ export default function Work() {
           </div>
           <div className="w-full sm:w-full after:w-0 after:h-px after:relative after:block after:border-t-2 after:border-purple-600 after:transition-all after:duration-1000 after:ease-in-out hover:after:w-full after:top-0">
             <div className="flex relative">
-              <img
-                alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://i.ibb.co/f21tfvv/screencapture-hotelsiteapp-netlify-app-2023-03-13-14-03-13.png"
-              />
+              <Image src="/hotelsiteapp.png" alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" width={500} height={500} />
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />

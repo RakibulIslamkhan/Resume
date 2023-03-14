@@ -166,7 +166,7 @@ export default function HeroSection() {
               <FadeIn
                 vars={{ y: -200, duration: 2, ease: "power2.out", delay: 0.5 }}
               >
-                <h3 className="text-2xl sm:text-xl mb-8 text-purple-600">
+                <h3 className="text-2xl sm:text-xl mb-3 text-purple-600">
                   Hi, my name is
                 </h3>
               </FadeIn>
@@ -175,7 +175,7 @@ export default function HeroSection() {
               <FadeIn
                 vars={{ y: -200, duration: 3, ease: "power2.out", delay: 1 }}
               >
-                <h1 className="text-6xl sm:text-3xl mb-8 font-bold dark:text-gray-900">
+                <h1 className="text-6xl sm:text-3xl mb-3 font-bold dark:text-gray-900">
                   Rakibul Islam Khan. 
                   {/* <span><svg viewBox="0 0 200 50">
                     <text x="50%" y="35%" dy=".35em" text-anchor="middle">
@@ -189,13 +189,13 @@ export default function HeroSection() {
               <FadeIn
                 vars={{ y: -200, duration: 3, ease: "power2.out", delay: 2 }}
               >
-                <h1 className="text-5xl sm:text-3xl font-bold pb-8 text-gray-500 dark:text-gray-500">
+                <h1 className="text-5xl sm:text-3xl font-bold pb-3 text-gray-500 dark:text-gray-500">
                   I build things for the web.
                 </h1>
               </FadeIn>
             </div>
             <div>
-              <p className="text-lg font-light max-w-xl text-justify mb-12 dark:text-gray-900">
+              <p className="text-lg font-light max-w-xl text-justify mb-6 dark:text-gray-900">
                 I&apos;m a frontend developer specializing in crafting engaging
                 and user-friendly digital experiences. Currently, I&apos;m
                 focused on developing accessible and intuitive products at{" "}
@@ -234,12 +234,12 @@ export default function HeroSection() {
             </div>
           </div>
           <div>
-          <Player
+          {/* <Player
           autoplay
           loop
           src="https://assets2.lottiefiles.com/packages/lf20_jjsrh4we.json"
           style={{ height: "400px", width: "400px",}}
-        ></Player>
+        ></Player> */}
         </div>
         </section>
         <Player
