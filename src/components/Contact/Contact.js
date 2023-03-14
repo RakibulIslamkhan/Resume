@@ -42,7 +42,7 @@ export default function Contact() {
       <button
         id="btn-back-to-top"
         ref={buttonRef}
-        className={`fixed bottom-10 right-2 bg-gray-100 dark:bg-gray-900 rounded-full p-1 shadow-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition duration-300 ease-in-out`}
+        className={`fixed bottom-10 right-2 bg-gray-100 dark:bg-gray-900 rounded-full p-1 shadow-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition duration-300 ease-in-out dark:text-white text-black`}
         style={{ display: showButton ? "block" : "none" }}
         onClick={backToTop}
       >
@@ -51,7 +51,7 @@ export default function Contact() {
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
-          stroke="black"
+          stroke="currentColor"
           class="w-6 h-6"
         >
           <path

@@ -57,10 +57,14 @@ export default function Work() {
                   all. Use technologies like HTML, CSS, Bootstrap, etc. Full
                   mobile responsive.
                 </p>
-                <div className="font-mono text-xs flex gap-3 mt-4">
+                <div className="font-mono text-xs flex flex-wrap gap-3 mt-4">
                   <span>React Js</span>
                   <span>CSS</span>
                   <span>Bootstrap</span>
+                  <span>Firebase</span>
+                  <span>Node Js</span>
+                  <span>Express Js</span>
+                  <span>Monogo DB</span>
                 </div>
               </div>
             </div>
