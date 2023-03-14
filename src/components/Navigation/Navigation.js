@@ -131,7 +131,8 @@ export default function Navigation() {
             </div>
             <div className="sm:hidden flex-1 ml-6 md:justify-end">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1rNNGcqWRt7vkqyUhGWxbvIrr7DcFWQPa/view?usp=share_link"
+                target={"_blank"}
                 className="text-sm font-semibold leading-6 text-white dark:text-black px-4 py-2 border border-gray-500 rounded-lg"
               >
                 Resume
@@ -180,7 +181,8 @@ export default function Navigation() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="https://drive.google.com/file/d/1rNNGcqWRt7vkqyUhGWxbvIrr7DcFWQPa/view?usp=share_link"
+                    target={"_blank"}
                     className="text-sm font-semibold leading-6 text-white dark:text-black px-4 py-2 border border-gray-500 rounded-lg w-full text-center"
                   >
                     Resume

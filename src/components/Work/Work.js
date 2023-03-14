@@ -19,7 +19,9 @@ export default function Work() {
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
+                  <a href="https://yoga-landing-web.netlify.app/" target={'_blank'}>
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 text-gray-400" />
+                  </a>
                 </div>
                 <h2 className="font-bold text-lg mb-4">
                   Find your inner peace with yoga
@@ -43,7 +45,9 @@ export default function Work() {
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
+                  <a href="https://tourxgo.web.app/" target={'_blank'}>
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 text-gray-400" />
+                  </a>
                 </div>
                 <h2 className="font-bold text-lg mb-4">
                   Experience Adventure in Style with TourX
@@ -67,7 +71,9 @@ export default function Work() {
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
+                  <a href="https://airmotionweb.web.app/" target={'_blank'}>
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 text-gray-400" />
+                  </a>
                 </div>
                 <h2 className="font-bold text-lg mb-4">
                   Feel the Difference with AirMotion
@@ -91,7 +97,9 @@ export default function Work() {
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
+                  <a href="https://medicare-web.netlify.app/" target={'_blank'}>
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 text-gray-400" />
+                  </a>
                 </div>
                 <h2 className="font-bold text-lg mb-4">
                   Care that Keeps You Healthy with Medicare
@@ -116,10 +124,13 @@ export default function Work() {
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
+                  <a href="https://popcorn-web.netlify.app/" target={'_blank'}>
+
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 text-gray-400" />
+                  </a>
                 </div>
                 <h2 className="font-bold text-lg mb-4">
-                  Find your inner peace with yoga
+                Your website deserves the best. Host with us.
                 </h2>
                 <p className="leading-relaxed text-sm">
                   a single page application with a dashboard for users to see
@@ -143,7 +154,9 @@ export default function Work() {
               <div className="px-6 py-8 relative z-10 w-full h-80 bg-[#112240cf] opacity-0 hover:opacity-100 backdrop-blur-sm">
                 <div className="flex justify-between items-center mb-4">
                   <FolderIcon className="h-8 w-8 text-purple-600" />
+                  <a href="https://hotelsiteapp.netlify.app/" target={'_blank'}>
                   <ArrowTopRightOnSquareIcon className="h-6 w-6 text-gray-400" />
+                  </a>
                 </div>
                 <h2 className="font-bold text-lg mb-4">
                   Relax and Recharge with Us at Our Hotel
