@@ -33,7 +33,7 @@ export default function About() {
           <p className="mb-6 dark:text-gray-900">
             Here are a few technologies I&apos;ve been working with recently:
           </p>
-          <ul className="grid grid-cols-2 gap-3 text-md max-w-md font-mono dark:text-gray-900">
+          <ul className="grid grid-cols-2 gap-3 text-md sm:text-xs max-w-md font-mono dark:text-gray-900">
             <li className="relative pl-6 before:text-lg before:leading-5 before:content-['▹'] before:absolute before:text-purple-900 before:left-0">
               HTML
             </li>

@@ -16,11 +16,11 @@ export default function Experience() {
         date: "September 2022 - January 2023",
         work: [{
           id: 1,
-          workText: "I worked on the frontend part of the project using React.js and Tailwind CSS."
+          workText: "I worked on the frontend part of the project using React.js and Material Ui."
         },
         {
           id: 2,
-          workText: "I also worked on the database part of the project using MongoDB and Mongoose."
+          workText: "I also worked on the HTML, Css, and Javascript part of the project. There have learn a new technology Next Js."
         },
       ],
       companyLink: "https://popcorn.com.bd/",
@@ -34,34 +34,34 @@ export default function Experience() {
         date: "January 2021 - January 2022",
         work: [{
           id: 1,
-          workText: "I worked on the frontend part of the project using React.js and Tailwind CSS."
+          workText: "I worked on the frontend part of the project using React.js, HTML, CSS, and Javascript."
         },
         {
           id: 2,
-          workText: "I also worked on the database part of the project using MongoDB and Mongoose."
+          workText: "I also worked on the Bootstrap part of the project."
         },
         ],
         companyLink: "https://www.fiverr.com/",
       },
     ],
-    Upwork: [
-      {
-        id: 3,
-        title: "Frontend Developer",
-        company: "@ Upwork",
-        date: "December 2022 - Present",
-        work: [{
-          id: 1,
-          workText: "I worked on the frontend part of the project using React.js and Tailwind CSS."
-        },
-        {
-          id: 2,
-          workText: "I also worked on the database part of the project using MongoDB and Mongoose."
-        },
-        ],
-        companyLink: "https://www.fiverr.com/",
-      },
-    ],
+    // Upwork: [
+    //   {
+    //     id: 3,
+    //     title: "Frontend Developer",
+    //     company: "@ Upwork",
+    //     date: "December 2022 - Present",
+    //     work: [{
+    //       id: 1,
+    //       workText: "I worked on the frontend part of the project using React.js and Tailwind CSS."
+    //     },
+    //     {
+    //       id: 2,
+    //       workText: "I also worked on the database part of the project using MongoDB and Mongoose."
+    //     },
+    //     ],
+    //     companyLink: "https://www.fiverr.com/",
+    //   },
+    // ],
     SeoClerk: [
       {
         id: 4,
@@ -70,11 +70,11 @@ export default function Experience() {
         date: "March 2021 - Present",
         work: [{
           id: 1,
-          workText: "I worked on the frontend part of the project using React.js and Tailwind CSS."
+          workText: "As a content writer, I focused on creating engaging and informative written content for various mediums, such as websites, blogs, social media, and marketing materials. I worked on crafting compelling messages that effectively communicated the brand's voice and values to the target audience."
         },
         {
           id: 2,
-          workText: "I also worked on the database part of the project using MongoDB and Mongoose."
+          workText: "I used my strong writing skills and knowledge of SEO best practices to create high-quality, keyword-rich content that improved the website's search engine rankings and drove more traffic to the site. Additionally, I continually reviewed and updated existing content to ensure that it remained relevant and up-to-date."
         },
         ],
         companyLink: "https://www.fiverr.com/",
@@ -87,7 +87,8 @@ export default function Experience() {
       <h2 className="flex items-center pb-10 text-3xl sm:text-xl font-bold after:relative after:block after:top-px after:w-72 sm:after:w-40 after:h-px after:bg-gray-500 after:ml-4 before:content-['02.'] before:font-serif before:text-3xl before:mr-2 before:font-mono before:text-purple-900 dark:text-gray-900 sm:before:text-xl">
         Experience
       </h2>
-      <div className="w-full max-w-2xl px-2 py-10 sm:px-0 flex sm:flex-col gap-4 sm:gap-8 relative dark:text-gray-900">
+      <div className="flex sm:flex-col items-center justify-between">
+      <div className="w-full max-w-2xl px-2 py-1 sm:px-0 flex sm:flex-col gap-4 sm:gap-8 relative dark:text-gray-900">
         <Tab.Group>
           <Tab.List className="sm:flex flex flex-col sm:flex-row">
             {Object.keys(categories).map((category) => (
@@ -124,7 +125,7 @@ export default function Experience() {
                       </a>
                     </h3>
                     <span className="font-mono text-xs">{post.date}</span>
-                    <ul className="text-md font-mono mt-5">
+                    <ul className="text-md font-mono mt-5 text-justify">
                     {post?.work?.map((work) => (
                       <li key={work.id} className="relative pl-6 before:text-lg before:leading-5 before:content-['▹'] before:absolute before:text-purple-900 before:left-0 my-4">
                         {work.workText}
@@ -139,7 +140,11 @@ export default function Experience() {
         </Tab.Group>
       </div>
       <div>
-        <Player />
+        <Player autoplay
+          loop
+          src="https://assets9.lottiefiles.com/packages/lf20_xvmprung.json"
+          style={{ height: "400px", width: "400px",}} />
+      </div>
       </div>
     </section>
   );

@@ -75,7 +75,7 @@ export default function Navigation() {
       <div className="px-6 py-4 mt-2 lg:px-12">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-12 sm:h-8 w-auto"
@@ -93,7 +93,7 @@ export default function Navigation() {
                 />
               ) : (
                 <SunIcon
-                  className="h-6 w-6 text-gray-400 cursor-pointer"
+                  className="h-6 w-6 text-yellow-300 cursor-pointer"
                   onClick={themeToggle}
                 />
               )}
@@ -124,7 +124,7 @@ export default function Navigation() {
                 />
               ) : (
                 <SunIcon
-                  className="h-6 w-6 text-gray-400 cursor-pointer"
+                  className="h-6 w-6 text-yellow-300 cursor-pointer"
                   onClick={themeToggle}
                 />
               )}

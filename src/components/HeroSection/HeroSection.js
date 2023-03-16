@@ -68,7 +68,7 @@ export default function HeroSection() {
         >
           <ul className="flex flex-col gap-5 items-center after:block after:h-40 after:w-px after:bg-gray-light after:mx-auto after:my-0 dark:text-gray-900 dark:after:bg-black">
             <li className="hover:-translate-y-2 hover:text-purple-900 transition ease-in delay-300 duration-500">
-              <a href="">
+              <a href="https://github.com/RakibulIslamkhan" target={'_blank'}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -86,7 +86,7 @@ export default function HeroSection() {
               </a>
             </li>
             <li className="hover:-translate-y-2 hover:text-purple-900 transition ease-in delay-300 duration-500">
-              <a href="">
+              <a href="https://www.linkedin.com/in/rakibulislamkhan258/" target={'_blank'}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -106,7 +106,7 @@ export default function HeroSection() {
               </a>
             </li>
             <li className="hover:-translate-y-2 hover:text-purple-900 transition ease-in delay-300 duration-500">
-              <a href="">
+              <a href="https://twitter.com/Rakibulislam060" target={'_blank'}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -124,7 +124,7 @@ export default function HeroSection() {
               </a>
             </li>
             <li className="mb-4 hover:-translate-y-2 hover:text-purple-900 transition ease-in delay-300 duration-500">
-              <a href="">
+              <a href="https://codepen.io/RakibulIslamKhan" target={'_blank'}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
